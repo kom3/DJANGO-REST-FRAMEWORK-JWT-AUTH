@@ -1,0 +1,12 @@
+<h4>List of users:</h4>
+
+<table>
+
+    <th>Name</th>
+    <tbody>
+        {% for name in names_list%}
+        <tr><td>{{name.name}}</td></tr>
+        {%endfor%}
+        
+    </tbody>
+</table>
